@@ -1,0 +1,26 @@
+section:target
+{
+    display: block;
+}
+section:not(:target)
+{
+    display: none;
+}
+h1
+{
+    font-size: 60px;
+    text-align: center;
+}
+
+.login
+{
+   margin-bottom: 100px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+li{
+    list-style: none;
+    margin: 5px;
+}
+
